@@ -1,2 +1,3 @@
 rockfm https://live.rockfm.ro/rockfm.aacp
 magicfm https://live.magicfm.ro/magicfm.aacp
+kissfm https://live.kissfm.ro/kissfm.aacp

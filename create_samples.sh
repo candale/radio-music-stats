@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 
 while true; do
     cat stations.txt | while read station_info; do
