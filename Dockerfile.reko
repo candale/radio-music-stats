@@ -1,0 +1,11 @@
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install software-properties-common -y && \
+    apt-add-repository ppa:marin-m/songrec -y -u && \
+    apt install songrec entr -y 
+RUN apt-get install jq -y
+
+WORKDIR /app
+COPY run_reko.sh process_samples.sh /app
+CMD ["/app/run_reko.sh"]

@@ -1,0 +1,7 @@
+FROM jrottenberg/ffmpeg:4-ubuntu
+
+WORKDIR /app
+COPY stations.txt create_samples.sh /app
+
+ENTRYPOINT ["/bin/bash"]
+CMD ["/app/create_samples.sh"]

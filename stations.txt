@@ -1,0 +1,2 @@
+rockfm https://live.rockfm.ro/rockfm.aacp
+magicfm https://live.magicfm.ro/magicfm.aacp
